@@ -5,10 +5,9 @@ import pandas as pd
 
 
 def responzivny_stlpec_uprostred(obsah):
-    """Vytvorí responzívny stĺpec uprostred obrazovky.
-
-    Parametre:
-    obsah - akákoľvek Dash komponenta alebo list Dash komponent
+    """Create responsive column in the middle of the screen.
+    Parameters:
+    obsah - any Dash component or list of Dash components
     """
     return (
         dmc.Grid(
